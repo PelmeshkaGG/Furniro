@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+/*     transition: .4s; */
+}
+
+ul li {
+    list-style: none;
+}
+
+
+button {
+    display: block;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+h2, p, h3 {
+    margin: 0;
+}
+
+.header {
+    font-weight: 500;
+}
+
+.div-wrap_header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+    align-items: center;
+}
+
+.img-logo-header {
+    width: 185px;
+    height: 40px;
+}
+
+.list-items-link {
+    display: flex;
+    gap: 75px;
+}
+
+.link-item {
+    color: #000;
+    font-size: 16px;
+}
+
+.list-icon-header {
+    display: flex;
+    gap: 45px;
+    padding-right: 50px;
+}
+
+/* main section start */
+
+/* welcom section start */
+
+.welcome-container{
+    z-index: 2;
+    position: absolute;
+    top: 200px;
+    right: 40px;
+    padding-right:50px;
+    background-color: #FFF3E3;
+    padding: 60px 60px 40px 40px;
+    border-radius: 15px;
+}
+
+.welcome-top-text{
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 3px;
+color:#333333;
+margin:0px 0px 4px 0px; 
+}
+
+.welcome-title{
+font-size: 52px;
+font-weight: 700;
+line-height: 65px;
+letter-spacing: 0px;
+color:#B88E2F;
+margin:0px 0px 17px 0px;
+}
+
+.welcome-mid-text{
+font-size: 18px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0px;
+color:#333333;
+margin: 0px 0px 46px 0px;
+}
+
+.welcome-button{
+width: Hug (222px);
+height: Hug (74px);
+top: 584.9999694824219px;
+left: 778px;
+padding: 25px 72px 25px 72px;
+gap: 10px;
+background-color: #B88E2F;
+color:#FFFFFF;
+}
+
+.welcome{
+    position: relative;
+    height: 717px;
+    margin-bottom: 50px;
+}
+
+.img-section-welcome{
+    position: absolute;
+    width: 100%;
+    height: 717px;
+    z-index: 1;
+}
+
+/* welcome section finish */
+
+.browse-the-range-title{
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+color: #333;
+display: flex;
+justify-content: center;
+}
+
+.browse-the-range-text{
+    color: #666;
+text-align: center;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.browse-the-range-list{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 60px 0 ;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.browse-the-range-items-text{
+    color:#333333;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 30px 0px 0px 150px;
+    }
+
+
+.browse-the-range-items{
+    display: block;
+}
+
+/* main section finish */
